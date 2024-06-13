@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    background-color: #8dc63f;
+    font-family: "Arial";
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.football {
+    padding-top: 20rem;
+    padding-left: 10rem;
+    font-size: 15rem;
+    color: #39930d;
+}
+
+.manager {
+    padding: 10rem;
+    font-size: 30rem;
+    color: #39930d;
+}
+
+.official {
+    padding: 10rem;
+    font-size: 10rem;
+    color: #5a5a5a;
+}
+
+.ball img {
+    width: 60%;
+    height: 60%;
+}
+
+.contacts p {
+    padding-left: 10rem;
+}
+
+.contacts a {
+    font-size: 15rem;
+    color: #39930d;
+    text-decoration: none;
+}
+
+.contacts i {
+    font-size: 10rem;
+    color: #5a5a5a;
+}
+
+.tel {
+    padding-top: 15rem;
+}
+
+.work {
+    padding-top: 10rem;
+}
+
+.main-picture img {
+    object-fit: cover;
+    height: 200rem;
+    object-position: 70%;
+    padding: 10rem;
+    width: 94%;
+}
+
+.about {
+    padding-bottom: 20rem;
+}
+
+.about h1 {
+    padding: 10rem;
+    font-size: 15rem;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.about p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+    font-size: 10rem;
+    color: #343434;
+}
+
+.partners {
+    padding: 10rem;
+    margin-bottom: 10rem;
+}
+
+.partners p {
+    padding: 5rem;
+    font-size: 12rem;
+    color: #fff;
+    background-color: #39930d;
+}
+
+.partners a {
+    font-size: 12rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+.partners ul {
+    list-style: none;
+}
+
+.partners li {
+    margin: 5rem;
+}
+
+.footer {
+    background-color: #39930d;
+}
+
+.copy {
+    font-size: 10rem;
+    color: #fff;
+    padding: 5rem;
+}
+
+
+/* @media screen and (min-width: 375px) and (max-width: 424px) {
+    html {
+        font-size: 1px;
+    }
+
+    .football {
+        font-size: 12rem;
+    }
+
+    .manager {
+        font-size: 20rem;
+        width: 70rem;
+    }
+
+    .official {
+        font-size: 8rem;
+    }
+
+    .ball img {
+        width: 30%;
+        height: 30%;
+        padding-bottom: 10rem;
+    }
+
+    .tel {
+        width: 95rem;
+    }
+
+    .contacts a {
+        font-size: 10rem;
+    }
+
+    .contacts i {
+        font-size: 8rem;
+    }
+
+    .main-picture {
+        width: 95.5%;
+    }
+
+    .about h1 {
+        font-size: 12rem;
+    }
+
+    .about p {
+        width: 90%;
+        font-size: 8rem;
+    }
+
+    .partners {
+       min-width: 40%;
+    }
+
+    .partners p {
+        font-size: 10rem;
+        padding: 0;
+        padding: 5rem;
+    }
+
+    .partners a {
+        font-size: 8rem;
+    }
+
+    .partners li {
+        margin: 0;
+        margin: 5rem;
+    }
+
+    .footer p {
+        font-size: 8rem;
+    }
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+    
+
+    .football {
+        font-size: 12rem;
+    }
+
+    .manager {
+        font-size: 24rem;
+        width: 90rem;
+    }
+
+    .official {
+        font-size: 10rem;
+    }
+
+    .ball img {
+        width: 40%;
+        height: 40%;
+        padding-bottom: 10rem;
+    }
+
+    .tel {
+        width: 95rem;
+    }
+
+    .contacts a {
+        font-size: 10rem;
+    }
+
+    .contacts i {
+        font-size: 9rem;
+    }
+
+    .main-picture {
+        width: 95%;
+    }
+
+    .about {
+        padding-bottom: 0;
+        padding-bottom: 20rem;
+    }
+
+    .about h1 {
+        font-size: 12rem;
+    }
+
+    .about p {
+        font-size: 8rem;
+        width: 80%;
+    }
+
+    .partners {
+        width: 700rem;
+    }
+    
+    .partners p { 
+        font-size: 8rem;
+        padding: 0;
+        padding: 5rem;
+    }
+
+    .partners a {
+        font-size: 9rem;
+    }
+
+    .partners li {
+        margin: 0;
+        margin: 5rem;
+    }
+
+    .footer p {
+        font-size: 8rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    html {
+        font-size: 1px;
+    }
+
+    .football {
+        font-size: 15rem;
+    }
+
+    .manager {
+        font-size: 30rem;
+        width: 125rem;
+    }
+
+    .official {
+        font-size: 12rem;
+    }
+
+    .ball img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 10rem;
+    }
+
+    .contacts a {
+        font-size: 15rem;
+    }
+
+    .contacts i {
+        font-size: 12rem;
+    }
+
+    .main-picture {
+        width: 98.5%;
+    }
+
+    .about {
+        padding-bottom: 0;
+        padding-bottom: 30rem;
+    }
+
+    .about h1 {
+        font-size: 18rem;
+    }
+
+    .about p {
+        font-size: 11rem;
+        width: 80%;
+    }
+
+    .partners {
+        min-width: 35%;
+    }
+
+    .partners li {
+        margin: 0;
+        margin: 10rem;
+    }
+
+    .partners p {
+        font-size: 15rem;
+        padding: 0;
+        padding: 10rem;
+    }
+
+    .partners a {
+        font-size: 12rem;
+    }
+
+    .footer p {
+        font-size: 10rem;
+    }
+} */
+
+@media (min-width: 768px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        text-align: right;
+        padding-right: 10rem;
+    }
+
+
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about {
+        width: 60%;
+    }
+
+    .partners {
+        width: 35%;
+    }
+
+
+
+}
