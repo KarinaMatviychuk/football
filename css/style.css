@@ -120,6 +120,10 @@ body {
     margin: 0 -15rem;
 }
 
+.footer p {
+    padding: 15rem;
+}
+
 .copy {
     color: #fff;
 }
