@@ -26,7 +26,6 @@ body {
     flex-wrap: wrap;
 }
 
-
 a {
     transition: 0.3s;
 }
@@ -91,10 +90,6 @@ a:hover {
     height: 200rem;
     object-position: 70%;
     width: 100%;
-}
-
-.about {
-    margin-bottom: 30rem;
 }
 
 .about h1 {
